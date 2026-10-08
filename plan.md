@@ -55,3 +55,8 @@ The source site lists no specific references or testimonials. We will not invent
 ## Local image availability
 
 All four generated WebP images are included in `public/assets/` and referenced through same-origin URLs such as `/assets/hero-residence.webp`. This keeps image loading independent of Manus storage: the images are served by Vite during local development and included with the static production build. Do not switch these back to platform-only `/manus-storage/` URLs or temporary external addresses.
+
+
+## Vercel route handling
+
+The site uses clean client-side paths for its service and legal pages. For Vercel deployments, root-level `vercel.json` rewrites incoming paths to `/index.html`, allowing React to render the selected route on direct navigation and refresh instead of returning the host's 404 page.

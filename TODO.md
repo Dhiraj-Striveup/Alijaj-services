@@ -29,3 +29,7 @@
 
 ## 7. Locally available website images
 - All website images are bundled in the project `public/assets/` folder and use same-origin public paths such as `/assets/hero-residence.webp`, so they load when the project is run locally without relying on Manus storage URLs or a remote image host.
+
+
+## 8. Vercel deep-link routing
+- On Vercel, direct navigation or refresh at `/Hauswartungen`, `/Reinigungen`, `/Gartenunterhalt`, and `/Uber-uns/Impressum` must serve the React app (`/index.html`) rather than return a Vercel 404.
