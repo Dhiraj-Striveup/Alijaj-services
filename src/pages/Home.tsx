@@ -1,9 +1,9 @@
 import { company, mission } from '../content';
 
 const serviceCards = [
-  { n: '01', title: 'Hauswartungen', description: 'Sorgfältiger Gebäudeunterhalt, technische Betreuung und verlässlicher Winterdienst.', href: '/Hauswartungen', image: '/manus-storage/async-images/VtStuAffEVqvmWNkW53lC5/image-2.webp', alt: 'Hauswart prüft die Beleuchtung in einem hellen Treppenhaus' },
-  { n: '02', title: 'Reinigungen', description: 'Von Treppenhaus und Büro bis Fenster, Fassade und Wohnungsabgabe.', href: '/Reinigungen', image: '/manus-storage/async-images/VtStuAffEVqvmWNkW53lC5/image-3.webp', alt: 'Sorgfältige Reinigung in einem modernen Eingangsbereich' },
-  { n: '03', title: 'Gartenunterhalt', description: 'Gepflegte Grünflächen, saubere Wege und Aussenräume, die einladen.', href: '/Gartenunterhalt', image: '/manus-storage/async-images/VtStuAffEVqvmWNkW53lC5/image-4.webp', alt: 'Gepflegter Gartenbereich bei einem Schweizer Wohnhaus' },
+  { n: '01', title: 'Hauswartungen', description: 'Sorgfältiger Gebäudeunterhalt, technische Betreuung und verlässlicher Winterdienst.', href: '/Hauswartungen', image: '/assets/hauswartung.webp', alt: 'Hauswart prüft die Beleuchtung in einem hellen Treppenhaus' },
+  { n: '02', title: 'Reinigungen', description: 'Von Treppenhaus und Büro bis Fenster, Fassade und Wohnungsabgabe.', href: '/Reinigungen', image: '/assets/reinigung.webp', alt: 'Sorgfältige Reinigung in einem modernen Eingangsbereich' },
+  { n: '03', title: 'Gartenunterhalt', description: 'Gepflegte Grünflächen, saubere Wege und Aussenräume, die einladen.', href: '/Gartenunterhalt', image: '/assets/gartenunterhalt.webp', alt: 'Gepflegter Gartenbereich bei einem Schweizer Wohnhaus' },
 ];
 
 export function Home() {
@@ -17,7 +17,7 @@ export function Home() {
           <div className="hero-actions"><a className="btn btn-primary" href="#leistungen">Unsere Leistungen <span className="arrow" aria-hidden="true">↓</span></a><a className="btn btn-outline" href="tel:+41796245244">24-Stunden-Service <span className="arrow" aria-hidden="true">↗</span></a></div>
         </div>
         <div className="hero-image-wrap reveal delay-1">
-          <img className="hero-image" src="/manus-storage/async-images/VtStuAffEVqvmWNkW53lC5/image-1.webp" alt="Moderne Wohnliegenschaft in einer gepflegten grünen Umgebung" fetchPriority="high" />
+          <img className="hero-image" src="/assets/hero-residence.webp" alt="Moderne Wohnliegenschaft in einer gepflegten grünen Umgebung" fetchPriority="high" />
           <div className="hero-stamp"><span className="stamp-dot"/><span>Da, wenn es darauf ankommt</span></div>
           <span className="hero-caption">Zürich · Winterthur · Zürcher Oberland</span>
           <div className="hero-float"><strong>24h</strong><span>Service rund um Ihre Liegenschaft – auch dann, wenn es dringend ist.</span></div>
@@ -51,7 +51,7 @@ export function Home() {
 
     <section className="feature-band">
       <div className="feature-content"><span className="eyebrow">Was uns wichtig ist</span><h2>Sauberkeit schafft Wohlbefinden.</h2><p>Mit fachlicher Kompetenz kümmern wir uns um Sauberkeit, Hygiene und die vielen Aufgaben im Gebäudeunterhalt. Damit sich Menschen in ihrer Liegenschaft wohlfühlen können.</p><a className="btn" href="/Hauswartungen">Hauswartung entdecken <span className="arrow" aria-hidden="true">↗</span></a></div>
-      <div className="feature-photo"><img src="/manus-storage/async-images/VtStuAffEVqvmWNkW53lC5/image-2.webp" alt="Sorgfältig betreuter Innenbereich einer Wohnliegenschaft" loading="lazy" /></div>
+      <div className="feature-photo"><img src="/assets/hauswartung.webp" alt="Sorgfältig betreuter Innenbereich einer Wohnliegenschaft" loading="lazy" /></div>
     </section>
 
     <section className="container contact-cta" id="kontakt">

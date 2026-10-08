@@ -50,3 +50,8 @@ Use Vite’s static build to `dist` and the project's managed static publication
 ## Constraints and decisions
 
 The source site lists no specific references or testimonials. We will not invent them; service examples and original generated imagery are illustrative, not documentary photographs of Alijaj work. Preserve German-language Swiss spelling where present, and avoid promising extra services or claims not shown by the source.
+
+
+## Local image availability
+
+All four generated WebP images are included in `public/assets/` and referenced through same-origin URLs such as `/assets/hero-residence.webp`. This keeps image loading independent of Manus storage: the images are served by Vite during local development and included with the static production build. Do not switch these back to platform-only `/manus-storage/` URLs or temporary external addresses.

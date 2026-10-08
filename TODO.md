@@ -25,3 +25,7 @@
 - Deliver a complete visual redesign with modern, clean, premium and trustworthy UI/UX; excellent desktop and mobile experience; contemporary typography/layout; subtle animations and smooth transitions; and interactive elements only where they help customers.
 - Keep the design elegant and uncomplicated; ensure accessible navigation, useful touch targets and reduced-motion support.
 - Present services and existing work/reference information more clearly without inventing client or project claims; generated photos are illustrative, not evidence of customer work.
+
+
+## 7. Locally available website images
+- All website images are bundled in the project `public/assets/` folder and use same-origin public paths such as `/assets/hero-residence.webp`, so they load when the project is run locally without relying on Manus storage URLs or a remote image host.
